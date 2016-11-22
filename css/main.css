@@ -47,3 +47,39 @@ blockquote {
 .quote {
   color: #999;
 }
+
+@media only screen and (min-width: 25em) {
+
+  body {
+    width: 88%;
+  }
+
+  article p {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    line-height: 1.4;
+    font-size: 115%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    line-height: 1.6;
+    font-size: 125%;
+  }
+}
